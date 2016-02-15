@@ -7,6 +7,10 @@
 	border-width: 2px;
 }
 
+.hidden {
+	display: none;
+}
+
 header {
 	border-color: black;
 	border-width: 2px;
@@ -14,11 +18,12 @@ header {
 
 img {
 	display: inline;
-	width: 100px;
+	height: 200px;
 }
 
-header > h1 {
-	display: inline;
+header {
+	display: flex;
+
 }
 
 ul {
@@ -34,7 +39,24 @@ li {
 	display: flex;
 	align-items: stretch;
 	align-content: center;
-	background-color: red;
+	// background-color: red;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	a {
+		list-style: none;
+		text-decoration: none;
+		padding: 10px;
+	}
+	a:hover {
+			background-color: red;
+	}
+	.nav {
+		display: flex;
+		width: 100%;
+		justify-content: space-around;
+		
+	}
 }
 
 .mainlist {
