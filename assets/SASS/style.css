@@ -1,0 +1,40 @@
+.wrapper {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  /*background-color: blue;*/
+  border-color: green;
+  border-width: 2px; }
+
+header {
+  border-color: black;
+  border-width: 2px; }
+
+img {
+  display: inline;
+  width: 100px; }
+
+header > h1 {
+  display: inline; }
+
+ul {
+  list-style-type: none; }
+
+li {
+  flex: 1; }
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  align-content: center;
+  background-color: red; }
+
+.mainlist {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  background-color: blue;
+  align-content: flex-start; }
+
+/*# sourceMappingURL=style.css.map */
